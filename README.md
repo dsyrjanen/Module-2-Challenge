@@ -119,11 +119,11 @@ Sub stock_analysis_2018():
     Range("P3") = Cells(decrease_number + 1, 9)
     Range("P4") = Cells(volume_number + 1, 9)
 
-' Format to fit data
-Range("I:Q").Columns.AutoFit
+    ' Format to fit data
+    Range("I:Q").Columns.AutoFit
 
-' Run same report for next sheets (located in Module 1)
-Call stock_analysis_2019
-Call stock_analysis_2020
+    ' Run same report for next sheets (located in Module 1)
+    Call stock_analysis_2019
+    Call stock_analysis_2020
 
 End Sub
