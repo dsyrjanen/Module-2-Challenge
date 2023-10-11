@@ -1,4 +1,5 @@
 # Module-2-Challenge
+NOTE: Worked with Instructor on this challenge 
 
 Sub stock_analysis_2018():
 
